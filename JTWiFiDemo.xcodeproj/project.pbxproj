@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE13B40F21B8FEB900377DE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE13B40E21B8FEB900377DE7 /* AppDelegate.m */; };
+		EE13B41221B8FEB900377DE7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE13B41121B8FEB900377DE7 /* ViewController.m */; };
+		EE13B41521B8FEB900377DE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE13B41321B8FEB900377DE7 /* Main.storyboard */; };
+		EE13B41721B8FEB900377DE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE13B41621B8FEB900377DE7 /* Assets.xcassets */; };
+		EE13B41A21B8FEB900377DE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE13B41821B8FEB900377DE7 /* LaunchScreen.storyboard */; };
+		EE13B41D21B8FEB900377DE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE13B41C21B8FEB900377DE7 /* main.m */; };
+		EE13B42721B8FEB900377DE7 /* JTWiFiDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE13B42621B8FEB900377DE7 /* JTWiFiDemoTests.m */; };
+		EE13B43221B8FEB900377DE7 /* JTWiFiDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE13B43121B8FEB900377DE7 /* JTWiFiDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE13B42321B8FEB900377DE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE13B40221B8FEB900377DE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE13B40921B8FEB900377DE7;
+			remoteInfo = JTWiFiDemo;
+		};
+		EE13B42E21B8FEB900377DE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE13B40221B8FEB900377DE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE13B40921B8FEB900377DE7;
+			remoteInfo = JTWiFiDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE13B40A21B8FEB900377DE7 /* JTWiFiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JTWiFiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE13B40D21B8FEB900377DE7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE13B40E21B8FEB900377DE7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE13B41021B8FEB900377DE7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE13B41121B8FEB900377DE7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE13B41421B8FEB900377DE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE13B41621B8FEB900377DE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE13B41921B8FEB900377DE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE13B41B21B8FEB900377DE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE13B41C21B8FEB900377DE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE13B42221B8FEB900377DE7 /* JTWiFiDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JTWiFiDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE13B42621B8FEB900377DE7 /* JTWiFiDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTWiFiDemoTests.m; sourceTree = "<group>"; };
+		EE13B42821B8FEB900377DE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE13B42D21B8FEB900377DE7 /* JTWiFiDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JTWiFiDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE13B43121B8FEB900377DE7 /* JTWiFiDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTWiFiDemoUITests.m; sourceTree = "<group>"; };
+		EE13B43321B8FEB900377DE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE13B40721B8FEB900377DE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE13B41F21B8FEB900377DE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE13B42A21B8FEB900377DE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE13B40121B8FEB900377DE7 = {
+			isa = PBXGroup;
+			children = (
+				EE13B40C21B8FEB900377DE7 /* JTWiFiDemo */,
+				EE13B42521B8FEB900377DE7 /* JTWiFiDemoTests */,
+				EE13B43021B8FEB900377DE7 /* JTWiFiDemoUITests */,
+				EE13B40B21B8FEB900377DE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE13B40B21B8FEB900377DE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE13B40A21B8FEB900377DE7 /* JTWiFiDemo.app */,
+				EE13B42221B8FEB900377DE7 /* JTWiFiDemoTests.xctest */,
+				EE13B42D21B8FEB900377DE7 /* JTWiFiDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE13B40C21B8FEB900377DE7 /* JTWiFiDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EE13B40D21B8FEB900377DE7 /* AppDelegate.h */,
+				EE13B40E21B8FEB900377DE7 /* AppDelegate.m */,
+				EE13B41021B8FEB900377DE7 /* ViewController.h */,
+				EE13B41121B8FEB900377DE7 /* ViewController.m */,
+				EE13B41321B8FEB900377DE7 /* Main.storyboard */,
+				EE13B41621B8FEB900377DE7 /* Assets.xcassets */,
+				EE13B41821B8FEB900377DE7 /* LaunchScreen.storyboard */,
+				EE13B41B21B8FEB900377DE7 /* Info.plist */,
+				EE13B41C21B8FEB900377DE7 /* main.m */,
+			);
+			path = JTWiFiDemo;
+			sourceTree = "<group>";
+		};
+		EE13B42521B8FEB900377DE7 /* JTWiFiDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE13B42621B8FEB900377DE7 /* JTWiFiDemoTests.m */,
+				EE13B42821B8FEB900377DE7 /* Info.plist */,
+			);
+			path = JTWiFiDemoTests;
+			sourceTree = "<group>";
+		};
+		EE13B43021B8FEB900377DE7 /* JTWiFiDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE13B43121B8FEB900377DE7 /* JTWiFiDemoUITests.m */,
+				EE13B43321B8FEB900377DE7 /* Info.plist */,
+			);
+			path = JTWiFiDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE13B40921B8FEB900377DE7 /* JTWiFiDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE13B43621B8FEB900377DE7 /* Build configuration list for PBXNativeTarget "JTWiFiDemo" */;
+			buildPhases = (
+				EE13B40621B8FEB900377DE7 /* Sources */,
+				EE13B40721B8FEB900377DE7 /* Frameworks */,
+				EE13B40821B8FEB900377DE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JTWiFiDemo;
+			productName = JTWiFiDemo;
+			productReference = EE13B40A21B8FEB900377DE7 /* JTWiFiDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE13B42121B8FEB900377DE7 /* JTWiFiDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE13B43921B8FEB900377DE7 /* Build configuration list for PBXNativeTarget "JTWiFiDemoTests" */;
+			buildPhases = (
+				EE13B41E21B8FEB900377DE7 /* Sources */,
+				EE13B41F21B8FEB900377DE7 /* Frameworks */,
+				EE13B42021B8FEB900377DE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE13B42421B8FEB900377DE7 /* PBXTargetDependency */,
+			);
+			name = JTWiFiDemoTests;
+			productName = JTWiFiDemoTests;
+			productReference = EE13B42221B8FEB900377DE7 /* JTWiFiDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE13B42C21B8FEB900377DE7 /* JTWiFiDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE13B43C21B8FEB900377DE7 /* Build configuration list for PBXNativeTarget "JTWiFiDemoUITests" */;
+			buildPhases = (
+				EE13B42921B8FEB900377DE7 /* Sources */,
+				EE13B42A21B8FEB900377DE7 /* Frameworks */,
+				EE13B42B21B8FEB900377DE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE13B42F21B8FEB900377DE7 /* PBXTargetDependency */,
+			);
+			name = JTWiFiDemoUITests;
+			productName = JTWiFiDemoUITests;
+			productReference = EE13B42D21B8FEB900377DE7 /* JTWiFiDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE13B40221B8FEB900377DE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = hoyifo;
+				TargetAttributes = {
+					EE13B40921B8FEB900377DE7 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					EE13B42121B8FEB900377DE7 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE13B40921B8FEB900377DE7;
+					};
+					EE13B42C21B8FEB900377DE7 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE13B40921B8FEB900377DE7;
+					};
+				};
+			};
+			buildConfigurationList = EE13B40521B8FEB900377DE7 /* Build configuration list for PBXProject "JTWiFiDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE13B40121B8FEB900377DE7;
+			productRefGroup = EE13B40B21B8FEB900377DE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE13B40921B8FEB900377DE7 /* JTWiFiDemo */,
+				EE13B42121B8FEB900377DE7 /* JTWiFiDemoTests */,
+				EE13B42C21B8FEB900377DE7 /* JTWiFiDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE13B40821B8FEB900377DE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE13B41A21B8FEB900377DE7 /* LaunchScreen.storyboard in Resources */,
+				EE13B41721B8FEB900377DE7 /* Assets.xcassets in Resources */,
+				EE13B41521B8FEB900377DE7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE13B42021B8FEB900377DE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE13B42B21B8FEB900377DE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE13B40621B8FEB900377DE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE13B41221B8FEB900377DE7 /* ViewController.m in Sources */,
+				EE13B41D21B8FEB900377DE7 /* main.m in Sources */,
+				EE13B40F21B8FEB900377DE7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE13B41E21B8FEB900377DE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE13B42721B8FEB900377DE7 /* JTWiFiDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE13B42921B8FEB900377DE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE13B43221B8FEB900377DE7 /* JTWiFiDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE13B42421B8FEB900377DE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE13B40921B8FEB900377DE7 /* JTWiFiDemo */;
+			targetProxy = EE13B42321B8FEB900377DE7 /* PBXContainerItemProxy */;
+		};
+		EE13B42F21B8FEB900377DE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE13B40921B8FEB900377DE7 /* JTWiFiDemo */;
+			targetProxy = EE13B42E21B8FEB900377DE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE13B41321B8FEB900377DE7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE13B41421B8FEB900377DE7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE13B41821B8FEB900377DE7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE13B41921B8FEB900377DE7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE13B43421B8FEB900377DE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE13B43521B8FEB900377DE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE13B43721B8FEB900377DE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JTWiFiDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hoyifo.JTWiFiDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE13B43821B8FEB900377DE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JTWiFiDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hoyifo.JTWiFiDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE13B43A21B8FEB900377DE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JTWiFiDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hoyifo.JTWiFiDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JTWiFiDemo.app/JTWiFiDemo";
+			};
+			name = Debug;
+		};
+		EE13B43B21B8FEB900377DE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JTWiFiDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hoyifo.JTWiFiDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JTWiFiDemo.app/JTWiFiDemo";
+			};
+			name = Release;
+		};
+		EE13B43D21B8FEB900377DE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JTWiFiDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hoyifo.JTWiFiDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JTWiFiDemo;
+			};
+			name = Debug;
+		};
+		EE13B43E21B8FEB900377DE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JTWiFiDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hoyifo.JTWiFiDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JTWiFiDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE13B40521B8FEB900377DE7 /* Build configuration list for PBXProject "JTWiFiDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE13B43421B8FEB900377DE7 /* Debug */,
+				EE13B43521B8FEB900377DE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE13B43621B8FEB900377DE7 /* Build configuration list for PBXNativeTarget "JTWiFiDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE13B43721B8FEB900377DE7 /* Debug */,
+				EE13B43821B8FEB900377DE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE13B43921B8FEB900377DE7 /* Build configuration list for PBXNativeTarget "JTWiFiDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE13B43A21B8FEB900377DE7 /* Debug */,
+				EE13B43B21B8FEB900377DE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE13B43C21B8FEB900377DE7 /* Build configuration list for PBXNativeTarget "JTWiFiDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE13B43D21B8FEB900377DE7 /* Debug */,
+				EE13B43E21B8FEB900377DE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE13B40221B8FEB900377DE7 /* Project object */;
+}
