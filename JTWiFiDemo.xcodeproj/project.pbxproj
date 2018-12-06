@@ -15,6 +15,7 @@
 		EE13B41D21B8FEB900377DE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE13B41C21B8FEB900377DE7 /* main.m */; };
 		EE13B42721B8FEB900377DE7 /* JTWiFiDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE13B42621B8FEB900377DE7 /* JTWiFiDemoTests.m */; };
 		EE13B43221B8FEB900377DE7 /* JTWiFiDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE13B43121B8FEB900377DE7 /* JTWiFiDemoUITests.m */; };
+		EE13B44421B8FEF600377DE7 /* libSmartLink7.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE13B44021B8FEF500377DE7 /* libSmartLink7.3.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,10 @@
 		EE13B42D21B8FEB900377DE7 /* JTWiFiDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JTWiFiDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE13B43121B8FEB900377DE7 /* JTWiFiDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTWiFiDemoUITests.m; sourceTree = "<group>"; };
 		EE13B43321B8FEB900377DE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE13B44021B8FEF500377DE7 /* libSmartLink7.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSmartLink7.3.a; sourceTree = "<group>"; };
+		EE13B44121B8FEF500377DE7 /* HFSmartLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFSmartLink.h; sourceTree = "<group>"; };
+		EE13B44221B8FEF500377DE7 /* smartlinklib_7x.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smartlinklib_7x.h; sourceTree = "<group>"; };
+		EE13B44321B8FEF500377DE7 /* HFSmartLinkDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFSmartLinkDeviceInfo.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE13B44421B8FEF600377DE7 /* libSmartLink7.3.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +107,7 @@
 		EE13B40C21B8FEB900377DE7 /* JTWiFiDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EE13B43F21B8FEF500377DE7 /* smartlinklib_7x */,
 				EE13B40D21B8FEB900377DE7 /* AppDelegate.h */,
 				EE13B40E21B8FEB900377DE7 /* AppDelegate.m */,
 				EE13B41021B8FEB900377DE7 /* ViewController.h */,
@@ -130,6 +137,17 @@
 				EE13B43321B8FEB900377DE7 /* Info.plist */,
 			);
 			path = JTWiFiDemoUITests;
+			sourceTree = "<group>";
+		};
+		EE13B43F21B8FEF500377DE7 /* smartlinklib_7x */ = {
+			isa = PBXGroup;
+			children = (
+				EE13B44021B8FEF500377DE7 /* libSmartLink7.3.a */,
+				EE13B44121B8FEF500377DE7 /* HFSmartLink.h */,
+				EE13B44221B8FEF500377DE7 /* smartlinklib_7x.h */,
+				EE13B44321B8FEF500377DE7 /* HFSmartLinkDeviceInfo.h */,
+			);
+			path = smartlinklib_7x;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -433,6 +451,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = JTWiFiDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JTWiFiDemo/smartlinklib_7x",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = hoyifo.JTWiFiDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -446,6 +468,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = JTWiFiDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JTWiFiDemo/smartlinklib_7x",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = hoyifo.JTWiFiDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

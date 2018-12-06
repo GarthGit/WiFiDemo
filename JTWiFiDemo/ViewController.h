@@ -8,7 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITextFieldDelegate>
+
+
+@property  UITextField *txtSSID;
+@property  UITextField *txtPwd;
+@property  UIButton *cancelBtn;
+@property  UIButton *logBtn;
+@property  UIProgressView *progress;
+
+@property  NSString *host;
+@property  NSString *gmac;
 
 
 @end
